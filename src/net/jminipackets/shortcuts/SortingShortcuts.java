@@ -87,7 +87,7 @@ public class SortingShortcuts {
             if (num > max) max = num;
         }
 
-        int bucketCount = max / 10 + 1; // Adjustable bucket size
+        int bucketCount = max / 10 + 1;
         List<List<Integer>> buckets = new ArrayList<>(bucketCount);
         for (int i = 0; i < bucketCount; i++) {
             buckets.add(new ArrayList<>());
